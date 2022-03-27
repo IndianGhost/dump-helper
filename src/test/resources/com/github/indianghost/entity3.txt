@@ -1,0 +1,5 @@
+com.github.indianghost.EntityForDemo@35fc6dc4[
+  age=0
+  marks=[]
+  name=dolor sit
+]

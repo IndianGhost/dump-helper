@@ -1,0 +1,5 @@
+com.github.indianghost.EntityForDemo@351d0846[
+  age=30
+  marks=[9.62, 11.14, 17.0]
+  name=Lorem ipsum
+]
