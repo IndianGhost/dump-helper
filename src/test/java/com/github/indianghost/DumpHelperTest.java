@@ -61,11 +61,6 @@ public class DumpHelperTest {
 		testDumpAsJson(entity3, RESOURCE_JSON_OF_ENTITY_3);
 	}
 
-	/*
-	 * TODO: Find a way to test this method later we could not test it for the
-	 * moment because each object has a different hashCode see the example of output
-	 * in resource folder *.txt files
-	 */
 	@DisplayName(value = "test dumpProperties() method")
 	@Test
 	public void should_dump_as_properties() throws Exception {
