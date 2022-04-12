@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.indianghost.dumphelper</groupId>
 	<artifactId>indianghost-dumphelper</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>indianghost-dumphelper</name>
 	<description>It's a simple class that can be used in log files to dump objects with all properties</description>
 	<properties>
