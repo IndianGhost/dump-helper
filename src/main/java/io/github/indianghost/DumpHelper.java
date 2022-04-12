@@ -1,4 +1,4 @@
-package com.github.indianghost;
+package io.github.indianghost;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;

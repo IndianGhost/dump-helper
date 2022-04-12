@@ -1,12 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.indianghost.dumphelper</groupId>
+	<groupId>io.github.indianghost</groupId>
 	<artifactId>indianghost-dumphelper</artifactId>
 	<version>1.0.0</version>
-	<name>indianghost-dumphelper</name>
+	<packaging>jar</packaging>
+	<name>${project.groupId}:${project.artifactId}</name>
 	<description>It's a simple class that can be used in log files to dump objects with all properties</description>
+	<url>https://github.com/IndianGhost/dump-helper</url>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Achraf BELLAALI</name>
+			<email>achraf.bellaali@gmail.com</email>
+			<organization>indianghost</organization>
+			<organizationUrl>https://github.com/IndianGhost</organizationUrl>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://github.com/indianghost/dump-helper.git</connection>
+		<developerConnection>scm:git:ssh://github.com:indianghost/dump-helper.git</developerConnection>
+		<url>http://github.com/indianghost/dump-helper/tree/main</url>
+	</scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>

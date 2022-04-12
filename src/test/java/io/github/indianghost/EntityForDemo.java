@@ -1,4 +1,4 @@
-package com.github.indianghost;
+package io.github.indianghost;
 
 import static java.util.Objects.nonNull;
 
