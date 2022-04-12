@@ -7,6 +7,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
+/**
+ * 
+ * @author <a href="mailto:achraf.bellaali@gmail.com">Achraf BELLAALI</a>
+ *
+ */
 public class DumpHelper {
 
 	private static String EXCEPTION = "EXCEPTION";

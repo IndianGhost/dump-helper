@@ -5,6 +5,11 @@ import static java.util.Objects.nonNull;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author <a href="mailto:achraf.bellaali@gmail.com">Achraf BELLAALI</a>
+ *
+ */
 public class EntityForDemo {
 	private String name;
 	private int age;
