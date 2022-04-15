@@ -14,8 +14,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 
-import io.github.indianghost.DumpHelper;
-
 /**
  * 
  * @author <a href="mailto:achraf.bellaali@gmail.com">Achraf BELLAALI</a>
@@ -25,12 +23,12 @@ import io.github.indianghost.DumpHelper;
 public class DumpHelperTest {
 
 	private final static String ENCODING_TYPE = "UTF-8";
-	private final static String RESOURCE_OF_ENTITY_1 = "com/github/indianghost/entity1.txt";
-	private final static String RESOURCE_OF_ENTITY_2 = "com/github/indianghost/entity2.txt";
-	private final static String RESOURCE_OF_ENTITY_3 = "com/github/indianghost/entity3.txt";
-	private final static String RESOURCE_JSON_OF_ENTITY_1 = "com/github/indianghost/entity1.json";
-	private final static String RESOURCE_JSON_OF_ENTITY_2 = "com/github/indianghost/entity2.json";
-	private final static String RESOURCE_JSON_OF_ENTITY_3 = "com/github/indianghost/entity3.json";
+	private final static String RESOURCE_OF_ENTITY_1 = "io/github/indianghost/entity1.txt";
+	private final static String RESOURCE_OF_ENTITY_2 = "io/github/indianghost/entity2.txt";
+	private final static String RESOURCE_OF_ENTITY_3 = "io/github/indianghost/entity3.txt";
+	private final static String RESOURCE_JSON_OF_ENTITY_1 = "io/github/indianghost/entity1.json";
+	private final static String RESOURCE_JSON_OF_ENTITY_2 = "io/github/indianghost/entity2.json";
+	private final static String RESOURCE_JSON_OF_ENTITY_3 = "io/github/indianghost/entity3.json";
 
 	private EntityForDemo entity1;
 	private EntityForDemo entity2;
