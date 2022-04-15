@@ -16,11 +16,11 @@ It's easy, you should just add this dependency to your **pom.xml** file:
 </dependency>
 ```
 ### Examples of use
-First of all you should import the class **DumpHelper**:
-`import io.github.indianghost.DumpHelper;`
-Then you can use the method **dumpProperties(obj)** as:
-`log.info(DumpHelper.dumpProperties(entityForDemo));`
-to get the output:
+First of all you should import the class **DumpHelper**:  
+`import io.github.indianghost.DumpHelper;`  
+Then you can use the method **dumpProperties(obj)** as:  
+`log.info(DumpHelper.dumpProperties(entityForDemo));`  
+to get the output:  
 ```
 io.github.indianghost.EntityForDemo@351d0846[
   age=30
@@ -28,10 +28,9 @@ io.github.indianghost.EntityForDemo@351d0846[
   name=Lorem ipsum
 ]
 ```
-
-Or, you can use the method **dumpAsJson(obj)** as:
-`log.info(DumpHelper.dumpAsJSON(entityForDemo));`
-to get the output:
+Or, you can use the method **dumpAsJson(obj)** as:  
+`log.info(DumpHelper.dumpAsJSON(entityForDemo));`  
+to get the output:  
 ```
 {
   "name" : "Lorem ipsum",
