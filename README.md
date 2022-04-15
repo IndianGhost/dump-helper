@@ -1,4 +1,4 @@
-# indianghost-dumphelper (v1.0.0) ![version1.0.0](https://img.shields.io/badge/version-1.0.0-green.svg) ![![MIT](https://img.shields.io/badge/license-MIT-green)(https://github.com/IndianGhost/dump-helper/blob/main/LICENSE)
+# indianghost-dumphelper (v1.0.0) ![version1.0.0](https://img.shields.io/badge/version-1.0.0-green.svg) [![MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/IndianGhost/dump-helper/blob/main/LICENSE)
 **indianghost-dumphelper** is a lightweight package providing a dump helper that can print an object in json format or structured text.
 It is hightly recommended to use it in log files when it's not possible to debug objects in localhost.
 
