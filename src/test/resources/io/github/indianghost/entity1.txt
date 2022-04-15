@@ -1,4 +1,4 @@
-com.github.indianghost.EntityForDemo@59717824[
+io.github.indianghost.EntityForDemo@59717824[
   age=28
   marks=[12.5, 3.74]
   name=Achraf Bellaali
