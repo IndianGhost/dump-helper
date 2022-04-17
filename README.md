@@ -3,11 +3,10 @@
 It is hightly recommended to use it in log files when it's not possible to debug objects in localhost.
 
 ## Requirements
-- MAVEN project
 - JDK 1.8+
 
-## Maven
-It's easy, you should just add this dependency to your **pom.xml** file:
+## Install
+### Maven
 ```
 <dependency>
     <groupId>io.github.indianghost</groupId>
@@ -15,7 +14,42 @@ It's easy, you should just add this dependency to your **pom.xml** file:
     <version>1.0.0</version>
 </dependency>
 ```
-### Examples of use
+### Gradle
+```
+implementation group: 'io.github.indianghost', name: 'indianghost-dumphelper', version: '1.0.0'
+```
+### Gradle (Short)
+```
+implementation 'io.github.indianghost:indianghost-dumphelper:1.0.0'
+```
+## Gradle (Kotlin)
+```
+implementation("io.github.indianghost:indianghost-dumphelper:1.0.0")
+```
+## SBT
+```
+libraryDependencies += "io.github.indianghost" % "indianghost-dumphelper" % "1.0.0"
+```
+## Ivy
+```
+<dependency org="io.github.indianghost" name="indianghost-dumphelper" rev="1.0.0"/>
+```
+## Grape
+```
+@Grapes(
+    @Grab(group='io.github.indianghost', module='indianghost-dumphelper', version='1.0.0')
+)
+```
+## Leiningen
+```
+[io.github.indianghost/indianghost-dumphelper "1.0.0"]
+```
+## Buildr
+```
+'io.github.indianghost:indianghost-dumphelper:jar:1.0.0'
+```
+
+## Examples of use
 First of all you should import the class **DumpHelper**:  
 `import io.github.indianghost.DumpHelper;`  
 Then you can use the method **dumpProperties(obj)** as:  
@@ -38,9 +72,9 @@ to get the output:
   "marks" : [ 9.62, 11.14, 17.0 ]
 }
 ```
-# Copyright and license
+## Copyright and license
 Copyright 2022 Achraf BELLAALI **indianghost-dump-helper** is a free open-source project. The code is released under [The MIT LICENSE](https://github.com/IndianGhost/dump-helper/blob/main/LICENSE) you can do whatever you want with it !
 
-# Support My development
+## Support My development
 If you found it helpful, you can support me to develop new projects By :
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/achrafbellaali)
